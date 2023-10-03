@@ -17,6 +17,9 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
 }
+#img {
+    border-radius: 50%;
+}
 
 #txtn {
     text-align: center;
