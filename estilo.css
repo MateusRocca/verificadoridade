@@ -36,7 +36,7 @@ footer {
     font-style: italic;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     section {
         width: 200px;
     }
