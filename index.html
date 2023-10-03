@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div class="descricao">
+            <p>Ano de nascimento: <input type="number" id="txtn" min="0"></p>
+            <p>Sexo: 
+                <form>
+                    <input type="radio" name="opcao" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="opcao" id="fem">
+                    <label for="fem">Feminino</label>
+                </form>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+           <p>Preencha os dados acima para ver os resultados.</p>
+        </div>
+        <img id="img" src="" alt="">
+    </section>
+
+
+    <footer>
+        <p>&copy; Mateus Rocca</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
